@@ -5,3 +5,34 @@ RVM es una herramienta de línea de comandos que permite gestionar varias versio
 2.2.1 :001 >  puts "Hello world"
 Hello world
  => nil 
+ 
+¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete
+de Ruby (ruby helloWorld.rb) y el interprete interactivo del ejercicio anterior?
+Ejecutando el fichero solo muestra "Hola Mundo", 
+y en la terminal ademas de mostrar "Hola Mundo" tambien muestra Nil, es el resultado de la expresión puts que siempre retorna nil
+
+
+¿Cual es el resultado de cada una de las siguientes operaciones?
+[1] pry(main)> puts x
+10
+=> nil
+[2] pry(main)> def hello
+[2] pry(main)* puts "Hello world"
+[2] pry(main)* end
+=> :hello
+[3] pry(main)> hello
+hello world
+=> nill
+[4] pry(main)> byebye
+bye bye world!!!
+ => nil 
+[5] pry(main)> x = "changed"
+ => "changed" 
+[6] pry(main)> exit
+program resumes here. Value of x is: 10
+
+¿Cuales son las diferencias entre la ejecucion del programa "Hola Mundo" con el interprete
+interactivo y con pry?
+PRY es una shell interactiva para ruby como alternativa a IRB.
+
+
